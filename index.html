@@ -1,0 +1,20 @@
+---
+layout: default
+title: Your New Jekyll Site
+---
+
+<div id="home">
+  <ul class="posts">
+    {% for post in site.posts %}
+
+    {% capture thisyear %}{{ post.date | date: '%Y'}}{% endcapture %}
+    {% capture nextyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+
+    {% if thisyear != nextyear %} 
+      <h5> {{ post.date | date: "%Y" }}</h5>
+    {% endif %}
+    <li><span>{{ post.date | date: "%B" }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+
+    {% endfor %}
+  </ul>
+</div>
