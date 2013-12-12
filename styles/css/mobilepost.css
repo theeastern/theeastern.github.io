@@ -103,21 +103,30 @@ article tr {
   width: 100%; }
 
 a.headerLink {
-  text-decoration: none; }
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -transition: all 0.2s ease-in-out; }
 
-a.headerLink:hover header {
-  background-color: white;
-  color: #cf4647; }
+a.headerLink:hover {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -transition: all 0.2s ease-in-out; }
+  a.headerLink:hover header {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -transition: all 0.2s ease-in-out;
+    background-color: white;
+    color: #cf4647; }
 
 header {
-  -webkit-transition: background-color 0.2s ease-in-out;
-  -moz-transition: background-color 0.2s ease-in-out;
-  -o-transition: background-color 0.2s ease-in-out;
-  -transition: background-color 0.2s ease-in-out;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  -transition: color 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -transition: all 0.2s ease-in-out;
   background-color: #cf4647;
   color: white;
   width: 200px;
@@ -139,8 +148,7 @@ header {
 article {
   margin: auto;
   margin-top: 5%;
-  width: 50%;
-  max-width: 560px;
+  width: 90%;
   font-family: "Merriweather", serif;
   font-size: 16px;
   line-height: 1.6; }
@@ -168,8 +176,8 @@ article {
     font-size: 36px;
     margin-bottom: 0px; }
   article p {
-    margin-top: 3%;
-    margin-bottom: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     text-align: justify; }
   article blockquote {
     border-left: 3px solid #cf4647;
@@ -202,6 +210,30 @@ article {
     font-style: italic;
     font-weight: 100;
     text-align: center; }
+
+footer {
+  background-color: #cf4647;
+  margin-top: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: "Open Sans", sans-serif; }
+  footer a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid #cf4647;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -transition: all 0.2s ease-in-out; }
+  footer a:hover {
+    border-bottom: 1px solid white; }
+  footer ul {
+    list-style-type: none;
+    margin: 0 0 0 0;
+    text-align: center; }
+    footer ul li {
+      display: inline-block;
+      padding-right: 5%; }
 
 span.sans {
   font-family: "Open Sans", sans-serif; }

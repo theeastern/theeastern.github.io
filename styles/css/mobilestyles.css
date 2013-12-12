@@ -86,24 +86,16 @@ footer {
       padding-right: 5%; }
 
 .bigSplash h1 {
-  font-size: 166px; }
+  font-size: 50px; }
+.bigSplash date {
+  display: none; }
 .bigSplash .description {
-  width: 90%;
-  max-width: 1280px;
-  text-align: right; }
+  text-align: center; }
 
-.postsList {
-  width: 50%;
-  margin-left: 25%; }
-  .postsList a:hover {
-    border-bottom: 1px solid black; }
-  .postsList .dateMarker {
-    font-size: 66px; }
-  .postsList ol {
-    list-style-type: none; }
-    .postsList ol date {
-      margin-left: -35%;
-      margin-right: 5%;
-      width: 30%;
-      display: inline-block;
-      text-align: right; }
+.postsList .dateMarker {
+  font-size: 28px; }
+.postsList ol date {
+  color: #adadad;
+  margin-right: 5%;
+  display: inline-block;
+  text-align: right; }

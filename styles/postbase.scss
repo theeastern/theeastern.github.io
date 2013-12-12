@@ -1,0 +1,28 @@
+article {
+  table {
+    border-collapse: collapse;
+    font-family: $sans;
+    width: 100%;
+    text-align: center;
+    border: 1px solid $red + 55;
+
+  }
+
+  thead {
+    background-color: $red + 55;
+    color: $red - 55;
+  }
+
+  td {
+    border-right: 1px solid $red + 55;
+    border-bottom: 1px solid $red + 55;
+  }
+
+  td, th {
+    padding: 3%;
+  }
+
+  tr {
+    width: 100%;
+  }
+}
