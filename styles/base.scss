@@ -1,0 +1,45 @@
+// $COLORS
+$red: #CF4647;
+$white: #E5DDCB;
+
+// $FONTS
+$sans: 'Open Sans', sans-serif;
+$serif: 'Merriweather', serif;
+
+// $MIXINS
+// Font smoothing
+@mixin font-smoothing() {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+// Transition
+@mixin transition-all() {
+  -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -transition: all 0.2s ease-in-out;
+}
+
+// Selection colour
+@mixin selection-color($c) {
+  ::selection {
+	background: $c; /* Safari */
+  }
+  ::-moz-selection {
+  	background: $c; /* Firefox */
+  }
+}
+
+
+// $BASIC STYLES
+body {
+  @include font-smoothing();
+  line-height: 1.5;
+   @include selection-color($red + 150);
+}
+
+
+

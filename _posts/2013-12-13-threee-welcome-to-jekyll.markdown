@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title: "Welcome to Jekyll!"
+displaytitle:  "Welcome <br/><span class='thesmall'>—to—</span><br/> Jekyll!"
+subtitle: "This is a pretty nondescript test post."
 categories: jekyll update
 ---
 

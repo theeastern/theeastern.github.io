@@ -1,0 +1,182 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  line-height: 1.5; }
+  body ::selection {
+    background: #ffdcdd;
+    /* Safari */ }
+  body ::-moz-selection {
+    background: #ffdcdd;
+    /* Firefox */ }
+
+a.headerLink {
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -transition: all 0.2s ease-in-out; }
+
+a.headerLink:hover {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -transition: all 0.2s ease-in-out; }
+  a.headerLink:hover header {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -transition: all 0.2s ease-in-out;
+    background-color: white;
+    color: #cf4647; }
+
+header {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -transition: all 0.2s ease-in-out;
+  background-color: #cf4647;
+  color: white;
+  width: 200px;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  margin-left: 1%;
+  margin-top: 1%;
+  text-align: center; }
+  header h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 1;
+    margin: 0 0 0 0; }
+    header h1 .italicize {
+      font-weight: 100; }
+
+article {
+  margin: auto;
+  margin-top: 5%;
+  width: 50%;
+  max-width: 560px;
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  line-height: 1.6; }
+  article date {
+    color: #d0d0d0;
+    display: inline-block;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px; }
+  article a {
+    color: #cf4647;
+    border-bottom: 1px solid #cf4647;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -transition: all 0.2s ease-in-out; }
+  article a:hover {
+    color: white;
+    background-color: #cf4647; }
+  article h1 {
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 0px; }
+  article p {
+    margin-top: 3%;
+    margin-bottom: 7%;
+    text-align: justify; }
+  article blockquote {
+    border-left: 3px solid #cf4647;
+    padding-left: 3%;
+    color: #646464; }
+  article .pullout {
+    display: inline-block;
+    color: #cf4647;
+    font-style: italic;
+    font-size: 22px;
+    margin-left: -10%;
+    margin-right: -15%; }
+  article .byline {
+    text-align: right; }
+  article .fullimg {
+    display: inline-block;
+    margin-left: -79%;
+    max-width: 258%; }
+  article img {
+    max-width: 100%; }
+  article hr {
+    border: none;
+    border-top: 1px dotted gainsboro;
+    margin-top: 10%;
+    margin-bottom: 10%; }
+  article .subtitle {
+    color: gray;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center; }
+
+footer {
+  background-color: #cf4647;
+  margin-top: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: "Open Sans", sans-serif; }
+  footer a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid #cf4647;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -transition: all 0.2s ease-in-out; }
+  footer a:hover {
+    border-bottom: 1px solid white; }
+  footer ul {
+    list-style-type: none;
+    margin: 0 0 0 0;
+    text-align: center; }
+    footer ul li {
+      display: inline-block;
+      padding-right: 5%; }
+
+span.sans {
+  font-family: "Open Sans", sans-serif; }
+
+span.serif {
+  font-family: "Merriweather", serif; }
+
+.dropcap {
+  font-weight: 800;
+  font-size: 200%;
+  font-style: italic;
+  text-transform: uppercase;
+  color: #cf4647; }
+
+.leadline {
+  font-weight: 600;
+  font-size: 140%; }
+
+.customheader {
+  text-align: center;
+  line-height: 1.3;
+  font-size: 56px;
+  font-weight: 100; }
+
+.thesmall {
+  font-family: "Merriweather", serif;
+  font-weight: 800;
+  font-size: 35px;
+  font-style: italic;
+  text-transform: none; }
+
+article date {
+  display: inline-block;
+  width: 100%;
+  text-align: center; }
+
+/*# sourceMappingURL=post.css.map */

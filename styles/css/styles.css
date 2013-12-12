@@ -1,0 +1,95 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  line-height: 1.5; }
+  body ::selection {
+    background: #ffdcdd;
+    /* Safari */ }
+  body ::-moz-selection {
+    background: #ffdcdd;
+    /* Firefox */ }
+
+.bigSplash {
+  padding: 0 0 0 0;
+  padding-bottom: 5%;
+  background-color: #cf4647;
+  color: white;
+  min-height: 95%; }
+  .bigSplash .headersContainer {
+    padding-top: 20%;
+    padding-left: 2%; }
+  .bigSplash h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 166px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: -0.07em;
+    line-height: 1;
+    margin: 0 0 0 0; }
+    .bigSplash h1 .italicize {
+      font-weight: 100; }
+  .bigSplash .description {
+    width: 90%;
+    max-width: 1280px;
+    text-align: right; }
+  .bigSplash h2 {
+    font-family: "Merriweather", serif;
+    font-weight: 100;
+    font-size: 14px;
+    color: #E9C7C7; }
+  .bigSplash h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400; }
+
+.postsList {
+  width: 50%;
+  margin-left: 25%;
+  line-height: 2;
+  font-family: "Merriweather", serif; }
+  .postsList a {
+    color: inherit;
+    text-decoration: none; }
+  .postsList a:hover {
+    border-bottom: 1px solid black; }
+  .postsList .dateMarker {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 66px;
+    margin: 0 0 0 0;
+    margin-top: 15%;
+    color: #cf4647;
+    border-top: 1px dotted gainsboro; }
+  .postsList ol {
+    list-style-type: none; }
+    .postsList ol date {
+      color: #adadad;
+      margin-left: -35%;
+      margin-right: 5%;
+      width: 30%;
+      display: inline-block;
+      text-align: right; }
+
+footer {
+  background-color: #cf4647;
+  margin-top: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: "Open Sans", sans-serif; }
+  footer a {
+    color: white;
+    text-decoration: none; }
+  footer a:hover {
+    border-bottom: 1px solid white; }
+  footer ul {
+    list-style-type: none;
+    margin: 0 0 0 0;
+    text-align: center; }
+    footer ul li {
+      display: inline-block;
+      padding-right: 5%; }
+
+/*# sourceMappingURL=styles.css.map */

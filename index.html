@@ -1,20 +1,20 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: The Eastern
 ---
 
-<div id="home">
-  <ul class="posts">
+<div class='postsList'>
+  <ol>
     {% for post in site.posts %}
 
     {% capture thisyear %}{{ post.date | date: '%Y'}}{% endcapture %}
     {% capture nextyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
 
-    {% if thisyear != nextyear %} 
-      <h5> {{ post.date | date: "%Y" }}</h5>
+    {% if thisyear != nextyear %}
+      <h3 class='dateMarker'>{{ post.date | date: "%Y" }}</h3>
     {% endif %}
-    <li><span>{{ post.date | date: "%B" }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li><date>{{ post.date | date: "%B" }}</date><a href="{{ post.url }}">{{ post.title }}</a></li>
 
     {% endfor %}
-  </ul>
+  </ol>
 </div>
