@@ -1,5 +1,7 @@
 <html>
   <head>
+    <title>{{ page.title }}</title>
+
     <!-- $META -->
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -40,9 +42,18 @@
         {{ page.subtitle }}
       </h2>
       <date>{{ page.date | date: "%B %Y" }}</date>
+      {% if page.isSponsored %}
+        {% assign sn = {{page.sponsorname}} %}
+        {% assign sd = {{page.sponsordescription}} %}
+        {% assign su = {{page.sponsorurl}} %}
+        {% include cream.html sponsorurl=su sponsorname=sn sponsordescription=sd %}
+      {% else %}
+
+      {% endif %}
+
     {{ content }}
 
-<div class='byline'>By Matthew Palmer</div>
+<div class='byline'>{{ page.byline }}</div>
 </article>
 
     {% include footer.html %}

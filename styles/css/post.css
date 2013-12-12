@@ -101,6 +101,23 @@ article td, article th {
   padding: 3%; }
 article tr {
   width: 100%; }
+article .cream {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: #f0f0f0;
+  padding: 5%;
+  color: #323232; }
+  article .cream small {
+    text-transform: uppercase;
+    color: gray;
+    font-family: "Open Sans", sans-serif; }
+  article .cream a {
+    color: inherit;
+    border-bottom: none; }
+  article .cream a:hover {
+    background-color: #f0f0f0;
+    color: inherit;
+    border-bottom: 1px solid #323232; }
 
 a.headerLink {
   text-decoration: none; }

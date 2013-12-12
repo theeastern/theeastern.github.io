@@ -25,4 +25,29 @@ article {
   tr {
     width: 100%;
   }
+
+  .cream {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: gainsboro + 20;
+    padding: 5%;
+    color: black + 50;
+
+    small {
+      text-transform: uppercase;
+      color: gray;
+      font-family: $sans;
+    }
+
+    a {
+      color: inherit;
+      border-bottom: none;
+    }
+
+    a:hover {
+      background-color: gainsboro + 20;
+      color: inherit;
+      border-bottom: 1px solid black + 50;
+    }
+  }
 }

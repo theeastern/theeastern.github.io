@@ -4,6 +4,11 @@ title: "This is a longer title that says Welcome to Jekyll!"
 displaytitle:  "Welcome <br/><span class='thesmall'>—to—</span><br/> Jekyll!"
 subtitle: "This is a pretty nondescript test post."
 categories: jekyll update
+byline: By Matthew Palmer
+isSponsored: true
+sponsorurl: http://jekyllrb.com
+sponsorname: Jekyll
+sponsordescription: "Jekyll has built in support for syntax highlighting of over 100 languages thanks to Pygments. To use Pygments, you must have Python installed on your system and set pygments to true in your site’s configuration file."
 ---
 
 You'll find[^2] this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
