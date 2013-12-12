@@ -101,6 +101,7 @@ article {
     margin-left: -10%;
     margin-right: -15%; }
   article .byline {
+    margin-top: 15%;
     text-align: right; }
   article .fullimg {
     display: inline-block;
@@ -178,5 +179,3 @@ article date {
   display: inline-block;
   width: 100%;
   text-align: center; }
-
-/*# sourceMappingURL=post.css.map */

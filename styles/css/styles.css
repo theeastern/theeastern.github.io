@@ -13,10 +13,10 @@ body {
 
 .bigSplash {
   padding: 0 0 0 0;
-  padding-bottom: 5%;
+  padding-bottom: 20%;
   background-color: #cf4647;
   color: white;
-  min-height: 95%; }
+  height: 95%; }
   .bigSplash .headersContainer {
     padding-top: 20%;
     padding-left: 2%; }
@@ -91,5 +91,3 @@ footer {
     footer ul li {
       display: inline-block;
       padding-right: 5%; }
-
-/*# sourceMappingURL=styles.css.map */
