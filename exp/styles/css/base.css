@@ -1,0 +1,14 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  line-height: 1.5; }
+  body ::selection {
+    background: #ffdcdd;
+    /* Safari */ }
+  body ::-moz-selection {
+    background: #ffdcdd;
+    /* Firefox */ }
+
+/*# sourceMappingURL=base.css.map */
